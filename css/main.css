@@ -6,40 +6,246 @@
 	display: none;
 }
 
-.container
+a
+{
+	text-decoration: none;
+}
+
+body 
+{
+  background-color: #3AAFA9;
+}
+#container
 {
 	width: 960px;
-	padding-left: 10px;
+	padding-left: 15px;
 	padding-right: 10px;
 	margin: 0 auto;
+	background-color: #3AAFA9;
 }
 
 #mainNav
 {
-	width: 700px;
+	width: 650px;
 	height: 40px;
-	background-color: #23550B;
-	margin-right: auto;
+	background-color: #17252A;
+	margin-left: auto;
+	border-radius: 18px;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+#mainNav li
+{
+	display: inline;
+	font-size: 20px;
+}
+
+#mainNav a
+{
+	color: #FEFFFF;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 400;
 }
 
 #logo
 {
 	height: 100px;
 	width: 250px;
-	background-color: #f0aeae;
+	/*background-color: #f0aeae;*/
 	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.heroImage
+#heroImage
 {
-	width: 920px;
-	height: 480px;
-	background-color: #8888;
+	width: 960px;
+	height: 280px;
+	/*background-color: #f0aeae;*/
+	padding-top: 50px;
 }
 
-.iconBox1
+#crazyIcons
+{
+	color: #18252a;
+	/*font-family: "Georgia", serif;*/
+	font-family: canada-type-gibson, sans-serif;
+}
+
+#crazyPeople
+{
+	color: #18252a;
+	font-family: canada-type-gibson, sans-serif;
+}
+.heroText1
+{
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	font-family: canada-type-gibson, sans-serif;
+	line-height: 15px;
+}
+
+.heroText2
+{
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	font-family: canada-type-gibson, sans-serif;
+}
+
+.image-wrapper
+{
+	width: 45%
+	display: inline-block;
+}
+
+#promoText
+{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#promoText h1
+{
+	color: #17252A;
+	font-size: 40px;
+	font-family: "Georgia", serif;
+}
+
+#iconBoxRow1
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+#iconBoxRow1 p
+{
+	padding-left: 6px;
+	margin-top: 85px;
+	color: #17252A;
+	font-size: 20px;
+}
+
+#iconBoxRow2 p
+{
+	padding-left: 6px;
+	margin-top: 85px;
+	color: #17252A;
+	font-size: 20px;
+}
+
+
+#iconBox1
 {
 	width: 290px;
-	height: 40px;
+	height: 90px;
 	background-color: #555434;
+	margin-right: 40px;
 }
+
+#iconBox2
+{
+	width: 290px;
+	height: 90px;
+	background-color: #555434;
+	margin-right: 40px;
+}
+
+#iconBox3
+{
+	width: 290px;
+	height: 90px;
+	background-color: #555434;	
+}
+
+#iconBoxRow2
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+
+/*copyed code*/
+#mainFooter 
+{
+	height: 125px;
+	width: 960px;
+	background-color: #ccc;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#logoFooter
+{
+	margin-top: -19px;
+	padding-left: 20px;
+}
+
+#footerNav
+{
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+	text-align: center;
+	margin-top: 15px; 
+}
+
+#footerNav ul
+{
+	padding: 0px;
+	list-style-type: none; 
+}
+
+#footerNav ul li
+{
+	display: inline;
+	margin-right: 25px;
+	font-size: 15px;
+}
+
+#footerNav ul li a
+{
+	color: #333;
+}
+
+#footerNav ul li a:hover
+{
+	color: #999;
+}
+
+
+.copyRight
+{
+	height: 25px;
+	display: inline;
+	margin-left: 100px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 1110px;
+}
+
+.copyRight p
+{
+	background-color: #ccc;
+	line-height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
