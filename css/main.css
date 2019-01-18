@@ -24,16 +24,49 @@ body
 	background-color: #3AAFA9;
 }
 
-#mainNav
+/*#mainNav
 {
-	width: 650px;
-	height: 40px;
+	width: 550px;
+	height: 25px;
 	background-color: #17252A;
 	margin-left: auto;
 	border-radius: 18px;
-	margin-bottom: 100px;
-	margin-top: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-top: 1px;
+	padding-bottom: 15px;
 }
+*/
+
+#mainNav
+{
+	margin-left: auto;
+	border-radius: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+
+#contactBut
+{
+	border-width: 4px;
+	background-color: #18252a;
+	border-radius: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+#contactBut
+{
+	color: #ffffff;
+	transition: all 0.5s;
+  	cursor: pointer;
+}
+
 
 #mainNav li
 {
@@ -50,14 +83,20 @@ body
 	font-weight: 400;
 }
 
+#mainNav a:hover 
+{ 
+  color: #18252a;
+}
+
 #logo
 {
 	height: 100px;
 	width: 250px;
 	/*background-color: #f0aeae;*/
 	float: left;
-	margin-top: 10px;
+	padding-top: 20px;
 	margin-bottom: 20px;
+
 }
 
 #heroImage
@@ -87,6 +126,8 @@ body
 	text-align: center;
 	font-family: canada-type-gibson, sans-serif;
 	line-height: 15px;
+	margin-top: 120px;
+	margin-bottom: 20px;
 }
 
 .heroText2
@@ -106,7 +147,7 @@ body
 #promoText
 {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 100px;
 }
 
 #promoText h1
@@ -144,23 +185,26 @@ body
 {
 	width: 290px;
 	height: 90px;
-	background-color: #555434;
+	background-color: #17252A;
 	margin-right: 40px;
+	border-radius: 15px;
 }
 
 #iconBox2
 {
 	width: 290px;
 	height: 90px;
-	background-color: #555434;
+	background-color: #17252A;
 	margin-right: 40px;
+	border-radius: 15px;
 }
 
 #iconBox3
 {
 	width: 290px;
 	height: 90px;
-	background-color: #555434;	
+	background-color: #17252A;	
+	border-radius: 15px;
 }
 
 #iconBoxRow2
@@ -176,27 +220,33 @@ body
 {
 	height: 125px;
 	width: 960px;
-	background-color: #ccc;
-	display: flex;
-	justify-content: flex-start;
-	flex-direction: row;
+	background-color: #2B7A78;
 	margin-top: 100px;
+	display: flex;
+  	justify-content: center;
+  	border-radius: 15px;
 }
 
 #logoFooter
 {
-	margin-top: -19px;
-	padding-left: 20px;
+	margin-top: 15px;
+	padding-left: 0px;
+	margin-right: 80px;
+	height: 100px;
+	width: 70px;
 }
 
 #footerNav
 {
-	width: 300px;
+	width: 500px;
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 80px;
 	text-align: center;
 	margin-top: 15px; 
+	padding-bottom: 40px;
+	margin-right: 0px;
+
 }
 
 #footerNav ul
@@ -210,16 +260,18 @@ body
 	display: inline;
 	margin-right: 25px;
 	font-size: 15px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 800;
 }
 
 #footerNav ul li a
 {
-	color: #333;
+	color: #18252a;
 }
 
 #footerNav ul li a:hover
 {
-	color: #999;
+	color: #FEFFFF;
 }
 
 
@@ -227,16 +279,20 @@ body
 {
 	height: 25px;
 	display: inline;
-	margin-left: 100px;
+	margin-left: 200px;
 	font-size: 12px;
 	text-align: center;
 	margin-top: 1110px;
+	margin-bottom: 10px;
 }
 
 .copyRight p
 {
-	background-color: #ccc;
+	background-color: #2B7A78;
+	color: #18252a;
 	line-height: 12px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 800;
 }
 
 
